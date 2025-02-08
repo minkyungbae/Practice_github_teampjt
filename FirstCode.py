@@ -9,14 +9,6 @@ for i in name:
     print(i + " " + word)
 
 
-def user_info(name):
-    name = input("이름을 입력하세요: ")
-    print("이름: ", name)
-    index = name.index(name)
-    print("MBTI: ", mbti[index])
-    print("생년월일: ", birth[index])
-
-
 def age():
     birth = int(input("태어난 년도를 입력해 주세요 : "))
     age = 2025 - birth
