@@ -8,11 +8,7 @@ birth = [1998, 1994, 1998, 2000]
 for i in name:
     print(i + " " + word)
 
-
 def age():
     birth = int(input("태어난 년도를 입력해 주세요 : "))
     age = 2025 - birth
     print(f"2025년에 당신의 나이는 { age }입니다.")
-
-
-age()
